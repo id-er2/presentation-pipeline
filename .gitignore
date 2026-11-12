@@ -1,0 +1,29 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Source documents and generated teaching material
+input_pptx/
+farsi_word_docs/
+temp_work/
+mapping_files/
+farsi_payload/
+output_farsi/
+audit_report.txt
+*.pptx
+*.docx
+map_*.txt
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
